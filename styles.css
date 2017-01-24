@@ -1,0 +1,149 @@
+/* 
+   Lau's Cleaning Service style sheet 
+   Filename: styles.css
+
+   Author: P1626539
+   Date:     
+   HTML5 and CSS3 
+ */
+
+/* reset styles */
+html {
+   font-size: 16px;
+}
+a, article, body, div, figure, footer, header, h1, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+img.face{ /*css for face of employee picture*/
+	max-width:100%;
+	border: 1px solid black;
+	margin: 1.2em 7em 0.5em 0;
+	height: auto;
+	width: auto;
+	float: right;
+	clear: right;
+}
+img.address{ /*css for map picture*/
+	max-width:100%;
+	border: 1px solid black;
+	margin: 0 17em;
+	height: auto;
+	width: auto;
+	position: relative;
+}
+img.pic1{ /*css for Before cleaning photos*/
+	max-width: 100%;
+	margin: 2em 5em 2em 12em;
+	float: left;
+}
+img.pic2{ /*css for After cleaning photos*/
+	max-width: 100%;
+	margin: 2em 8em 2em 8em;
+}
+/* body */
+body {
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   max-width: 1280px;   
+   background: linear-gradient(#87CEFA, #FFFFFF, #87CEFA);
+}
+p {
+   font-size: 1.3em;
+   line-height: 1.6em;
+}
+a:link {
+   color: #000000;
+}
+a:visited {
+   color: #888;
+}
+/* header section */
+h1 {
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;
+   color: #000000;
+   font-size: 2.4em;
+   margin: 0.5em;
+}
+h2{
+	width: 1057px;
+   margin: 0 auto;
+   padding: 2.5em 6em 0em 7.5em;
+   font-size: 1em;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   background-color: ivory;
+   max-width: 100%;
+}
+h3{
+	width: 1057px;
+   margin: 0 auto;
+   padding: 3em 5.5em 8em 6.8em;
+   line-height: 2em;
+   font-size: 1.1em;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   background-color: ivory;
+   max-width: 100%;
+   border-bottom: 1px solid black;
+}
+/* site navigation bar */
+nav.sitenavigation {
+   color: #34180f;
+   text-align: center;
+   background-color: #B8944D;
+}
+nav.sitenavigation p {
+   margin: 0.3em 2em;
+   display: inline-block;
+}
+nav.sitenavigation a:link {
+   border-bottom: 2px solid black;
+   display: inline;
+   color: #34180f;
+}
+nav.sitenavigation a:visited {
+   color: #744f42;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   color: ivory;
+}
+/* main content */
+article {
+   margin: 0 auto;
+   background-color: #7eccec;
+   border: 0.3em solid green;
+}
+article div {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0 3em 1em;
+   background-color: ivory;
+   max-width: 100%;
+}
+
+.pullquote {
+	padding: 2em 0 1em;
+	text-align: center;
+	font-size: 1.4em;
+}
+footer {
+   padding: 0.6em;
+   background-color: #34180f;
+   color: ivory;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+}
+.accent {
+   font-weight: bold;
+}
+.Be{
+	margin: 0 13em 1em 15em;
+	font-family: Bitter, "Times New Roman", Times, serif;
+	float: left;
+}
+.Af{
+	margin: 0 0 1em 39em;
+	font-family: Bitter, "Times New Roman", Times, serif;
+}
